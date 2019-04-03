@@ -23,7 +23,8 @@ public class SnakeLadders{
 		if (i==0 && j==2)
 		{
 			return true;
-		}		return false;
+		}
+		return false;
 	}
 	public static boolean gameOver(int score) {
 		//if the score is greater than 9 you win. 
